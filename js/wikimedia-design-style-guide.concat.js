@@ -10,6 +10,11 @@
 			var script = document.createElement( 'script' );
 			// Use absolute path to address root files and /components/ directory ones.
 			script.src = '/style-guide/js/vendor/fontfaceobserver/fontfaceobserver.standalone.js';
+			if ( sessionStorage.getItem( 'fontsLoaded' )
+			    {
+			html.classList.add( 'fonts-loaded' );
+			}
+			    
 
 			script.onload = function () {
 				var serif = new FontFaceObserver( 'Charter' ); /* eslint-disable-line no-undef */
