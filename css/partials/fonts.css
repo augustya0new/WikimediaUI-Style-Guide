@@ -3,7 +3,7 @@
 	src: url( '../../fonts/Charter_regular.woff2' ) format( 'woff2' ),
 		 url( '../../fonts/Charter_regular.woff' ) format( 'woff' );
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 450;
 	text-rendering: optimizeLegibility; /* Attention: Android Stock Browser <= 4.3 doesn't show web font with this setting, but it also doesn't support WOFF :) */
 }
 
